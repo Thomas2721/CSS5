@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            background-image:url(photo_2024-08-12_20-19-19.jpg);
+            background-size: cover; 
+            background-repeat: no-repeat; 
+            background-position: center; 
+            height: 100vh; 
+            margin: 0;
+
+        }
+        .One{
+            margin-top: 50px;
+            padding: 30px;
+        
+            width: 275px;
+            height: 310px;
+            background-color: rgba(211, 211, 211, 0.875);
+            border-radius: 8px;
+            position: absolute;
+            top: 40%;
+           left: 50%;
+             transform: translate(-50%, -50%);
+             opacity: 0.9;
+             
+            
+            }
+        
+            input:not(input[type=checkbox]){
+            margin: 2px;
+            padding: 5px;
+            width: 97%;
+            height: 35px;
+            border: none;
+            border-radius: 5px;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            opacity: 0.7;
+            margin:auto;
+            
+           
+
+        }
+        .Login-button{
+            background-color:#01796F;
+            border: none;
+            width: 100%;
+            height: 38px;
+            color: white;
+           margin: 2px;
+           
+
+        }
+        label{
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            color: black;
+
+        }
+        a{
+            text-decoration: none;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+    </style>
+</head>
+<body>
+    <div class="One">
+        <h1 style="text-align: center; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;">Account Login</h1>
+        <input type="text" placeholder="User Name" name="firstName" id="firstName">
+        <br><br>
+        <input type="password" placeholder="Password">
+        <br><br><br>
+
+        <button class="Login-button" style="font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;">LOGIN</button>
+        <br>
+        <br>
+        <input type="checkbox" name="remember" id="remember">
+        <label for="remember">remember me</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        
+         
+        <a href="#">Forgot Password?</a>
+
+
+
+
+    </div>
+</body>
+</html>
